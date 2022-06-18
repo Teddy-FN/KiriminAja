@@ -44,7 +44,7 @@ export default {
 
       routes.push({
         path: "/about",
-        component: resolve(__dirname, "components/About"),
+        component: resolve(__dirname, "pages/AboutPages.vue"),
       });
     },
   },

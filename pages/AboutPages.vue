@@ -1,20 +1,20 @@
 <template>
   <div class="app">
     <Header />
-    <Main />
+    <About />
     <Footer />
   </div>
 </template>
 
 <script>
 import Header from "../components/Header";
-import Main from "../components/Main";
+import About from "../components/About";
 import Footer from "../components/Footer";
 export default {
-  name: "IndexPage",
+  name: "AboutPages",
   components: {
     Header,
-    Main,
+    About,
     Footer,
   },
 };
